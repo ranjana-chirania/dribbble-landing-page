@@ -1,0 +1,320 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+main {
+  height: 100%;
+  width: 100%;
+
+  background-color: white;
+}
+nav {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+nav h3 {
+  padding: 15px;
+  font-family: "Pacifico", cursive;
+  font-size: 20px;
+  transform: skewY(-5deg);
+}
+h4 {
+  font-weight: 100;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  img {
+    position: relative;
+    top: 4px;
+    height: 18px;
+  }
+}
+.signup {
+  padding: 15px;
+  justify-content: space-between;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  position: relative;
+  left: 40%;
+  font-size: 15px;
+  cursor: pointer;
+}
+.login {
+  padding: 15px 20px;
+  border-radius: 25px;
+  position: absolute;
+  left: 92%;
+  top: 25px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mid {
+  position: relative;
+  left: 30%;
+  top: 60px;
+}
+.mid h1 {
+  font-size: 65px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+.mid p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  word-spacing: 1px;
+  font-size: 20px;
+}
+input {
+  background-color: #f1f1f3;
+  padding: 20px 25px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 20px;
+  width: 650px;
+  position: relative;
+  right: 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.search {
+  background-color: #FF62A5;
+  padding: 10px;
+  border-radius: 45%;
+  left: 44%;
+  top: 83%;
+  position: absolute;
+}
+
+.mid2 {
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+  gap: 13px;
+  position: relative;
+  left: 9%;
+}
+.mid2 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  padding: 8px 18px;
+  background-color: #f1f1f3;
+  border-radius: 20px;
+  margin: 0;
+  font-size: 14px;
+}
+.mid2 span {
+  color: #b6b6ba;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  position: absolute;
+  top: 23%;
+  left: 13%;
+  font-size: 14px;
+}
+.mid2 h3:hover{
+  background-color: transparent;
+}
+.mid3 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 130px;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+.mid3 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 10%;
+  font-size: 15px;
+}
+.popular {
+  padding: 15px 15px;
+  position: absolute;
+  left: -0.3%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  top: 35%;
+  cursor: pointer;
+}
+.mid3 h3 span {
+  border-radius: 15px;
+  background-color: #f1f1f3;
+  padding: 8px 15px;
+}
+.filter {
+  padding: 10px 30px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 1px solid black;
+  position: absolute;
+  left: 93%;
+  top: 40%;
+  cursor: pointer;
+}
+.anime {
+  display: flex;
+  margin: 0;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.card {
+  display: grid;
+  grid-template-columns: 25px 1fr 40px 20px 30px 20px 40px;
+  align-items: center;
+  column-gap: 5px;
+}
+.dp {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.btn {
+  height: 20px;
+  width: 30px;
+  border-radius: 5px;
+  border: none;
+  color: #808081;
+  font-weight: bold;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+.anime i {
+  font-size: 15px;
+  color: #808081;
+}
+.card i:first-of-type {
+  margin-left: 10px;
+}
+.card span {
+  font-size: 12px;
+  color: #808081;
+}
+.main-img {
+  height: 240px;
+  width: 270px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  grid-column: 1 / -1;
+  margin-bottom: 5px;
+}
+video {
+  width: 22%;
+  height: 240px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.signup2 {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 12px;
+  display: flex;
+  margin: auto;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  width: max-content;
+  animation-name: anime;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+.logo img {
+  flex-shrink: 0;
+}
+@keyframes anime {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.logo img {
+  height: 50px;
+  width: 130px;
+  margin: 50px;
+}
+.footer{
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  font-weight: 10;
+  font-size: 14px;
+  margin: 50px;
+}
+.footer h3 span{
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  display: inline-block;
+  transform: skewY(-5deg);
+  font-weight: 100;
+}
+.footer i{
+  font-size: 20px;
+}
+
+.footer2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px 10%;
+  box-sizing: border-box;
+}
+
+.footer2 .left {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.footer2 .right {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-left: auto !important;
+}
+
+.footer2 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #9a9aa3;
+  font-weight: 400;
+  margin: 0 !important;
+  padding: 0 !important;
+  white-space: nowrap;
+}
